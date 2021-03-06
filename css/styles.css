@@ -1,0 +1,152 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  background-color:#ea2c62;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.bigheading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color:#fff;
+}
+/*Navigation bar*/
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem ;
+  font-weight: bold;
+}
+
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+/*buttons*/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*images*/
+.doggiphone {
+  position: absolute;
+  width:20%;
+  transform: rotate(25deg);
+  right: 25%;
+}
+
+/* section= features*/
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.iconsf {
+  color:#ffb0b0;
+  margin-bottom: 1rem;
+}
+.iconsf:hover{
+  color:#ea2c62;
+}
+
+/*Section testimonials*/
+#testimonials {
+  background-color: #ffb0b0;
+}
+
+.testimonial-text {
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  color:#fff;
+  font-size: 3.2rem;
+}
+.corgies {
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+#press {
+  background-color: #ffb0b0;
+  padding-bottom: 3%
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*pricing section*/
+.pricing-heading {
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+#pricing {
+  padding: 100px 120px;
+}
+.pricing-div {
+  padding: 3% 2%;
+}
+
+/* cta */
+#cta {
+  font-family: 'Montserrat-Bold',sans-serif;
+}
+
+/* footer */
+
+.footer-icon{
+  margin:10px 10px 20px;
+}
+
+/* media */
+@media (max-width:992px) {
+  .doggiphone {
+    transform:rotate(0);
+    position: static;
+    width:40%;
+  }
+  #title {
+    text-align: center;
+  }
+
+}
